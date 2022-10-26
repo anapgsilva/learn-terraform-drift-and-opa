@@ -1,5 +1,6 @@
 terraform {
   cloud {
+    organization = "ana-org"
     workspaces {
       name = "learn-terraform-drift-and-opa"
     }
